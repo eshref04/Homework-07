@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__left {
+  display: flex;
+  gap: 8px;
+  margin-left: 20px;
+  font-size: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 14px;
+}
+
+.header__right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-right: 20px;
+  margin-top: 14px;
+}
+
+.header__right img {
+  border-radius: 50%;
+}
+
+header img:hover {
+  cursor: pointer;
+}
+
+.header__right svg:hover {
+  cursor: pointer;
+}
+
+header i:hover {
+  cursor: pointer;
+}
+
+.main__head {
+  margin-left: 20px;
+  align-items: center;
+  gap: 20px;
+  display: flex;
+  font-size: 12px;
+  color: #1470e8;
+}
+
+.review,
+.calendar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.review,
+.calendar {
+  cursor: pointer;
+}
+
+.review p,
+.calendar p {
+  margin-top: 14px;
+}
+
+.review i,
+.calendar i {
+  font-size: 10px;
+}
+
+.main__card__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.main__card {
+  width: 240px;
+  height: 250px;
+  border: 1px solid rgba(0, 0, 0, 0.201);
+  border-radius: 6px;
+  overflow: hidden;
+  margin-left: 16px;
+  transition: 0.3s;
+}
+
+.main__card:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+}
+
+.main__card__head {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-image: url(https://www.gstatic.com/classroom/themes/img_reachout.jpg);
+  background-size: cover;
+}
+
+.main__card__head h2 {
+  font-size: 16px;
+}
+
+.main__card__foot {
+  border-top: 1px solid rgba(0, 0, 0, 0.201);
+  margin-top: 140px;
+  border-radius: 0px 0px 6px 0px;
+  padding: 13px 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 24px;
+}
+
+.main__card__foot i,
+svg:hover {
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+.footer__icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #424950;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #424950;
+  font-size: 14px;
+  margin-top: 130px;
+  margin-left: 12px;
+  margin-bottom: 16px;
+}
